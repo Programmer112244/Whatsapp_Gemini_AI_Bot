@@ -4,10 +4,10 @@ import requests
 import os
 import fitz
 
-wa_token=os.environ.get("WA_TOKEN")
-genai.configure(api_key=os.environ.get("GEN_API"))
-phone_id=os.environ.get("PHONE_ID")
-phone=os.environ.get("PHONE_NUMBER")
+wa_token=os.environ.get("EAAOUnodqmGsBO98MoxyT1ONxus7F60qUFfngNwu5z8c4eyfLYmCjUWwPk2lLPuRWnJEXLRaUyjOGKCZBub0F59vCylRJs5k1NUIs32KLMZCiZAF9TZBWB50ZBLZCFYV6NsQMdkft1h7NGLjVJjD7FjShwKWYDhVuyIY6TJnPVZChEnBhznFU8vDI3b7bRnFybB9Q8Is226xZBMVbdT0OL58SiL8rtI0ZD")
+genai.configure(api_key=os.environ.get("AIzaSyB_TYZFhMJBeuobPKC4Z2g7zBSBHPtBezI"))
+phone_id=os.environ.get("462072056980787")
+phone=os.environ.get("+9779824301978")
 name="Your name or nickname" #The bot will consider this person as its owner or creator
 bot_name="Give a name to your bot" #This will be the name of your bot, eg: "Hello I am Astro Bot"
 model_name="gemini-1.5-flash-latest" #Switch to "gemini-1.0-pro" or any free model, if "gemini-1.5-flash" becomes paid in future.
